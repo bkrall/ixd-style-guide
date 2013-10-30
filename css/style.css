@@ -1,0 +1,549 @@
+/* font-face */
+@font-face {
+  font-family: "SocialFoundicons";
+  src: url("../fonts/social_foundicons.eot");
+  src: url("../fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/social_foundicons.woff") format("woff"), url("../fonts/social_foundicons.ttf") format("truetype"), url("../fonts/social_foundicons.svg#SocialFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+/* line 35, ../scss/_social_foundicons.scss */
+[class*="foundicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+/* line 45, ../scss/_social_foundicons.scss */
+[class*="foundicon-"]:before {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-thumb-up:before {
+  content: "\f000";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-thumb-down:before {
+  content: "\f001";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-rss:before {
+  content: "\f002";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-facebook:before {
+  content: "\f003";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-twitter:before {
+  content: "\f004";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-pinterest:before {
+  content: "\f005";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-github:before {
+  content: "\f006";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-path:before {
+  content: "\f007";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-linkedin:before {
+  content: "\f008";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-dribbble:before {
+  content: "\f009";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-stumble-upon:before {
+  content: "\f00a";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-behance:before {
+  content: "\f00b";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-reddit:before {
+  content: "\f00c";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-google-plus:before {
+  content: "\f00d";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-youtube:before {
+  content: "\f00e";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-vimeo:before {
+  content: "\f00f";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-flickr:before {
+  content: "\f010";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-slideshare:before {
+  content: "\f011";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-picassa:before {
+  content: "\f012";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-skype:before {
+  content: "\f013";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-steam:before {
+  content: "\f014";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-instagram:before {
+  content: "\f015";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-foursquare:before {
+  content: "\f016";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-delicious:before {
+  content: "\f017";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-chat:before {
+  content: "\f018";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-torso:before {
+  content: "\f019";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-tumblr:before {
+  content: "\f01a";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-video-chat:before {
+  content: "\f01b";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-digg:before {
+  content: "\f01c";
+}
+
+/* line 6, ../scss/_social_foundicons.scss */
+.foundicon-wordpress:before {
+  content: "\f01d";
+}
+
+/*
+_____,-----------------------,_____
+ \    |   DESIGN IN BROWSER   |    /
+ /____|-----------------------|____\
+                                       */
+/* 14px */
+/* line 81, ../scss/style.scss */
+.colors {
+  overflow: hidden;
+}
+/* line 83, ../scss/style.scss */
+.colors li {
+  float: left;
+  width: 3.5em;
+  margin: 0 .5em;
+  list-style: none;
+  text-align: center;
+}
+
+/* line 92, ../scss/style.scss */
+.swatch {
+  width: 100%;
+  height: 3.5em;
+  margin-bottom: 0.2em;
+  display: block;
+  border-radius: 100px;
+}
+
+/* line 100, ../scss/style.scss */
+.colors.large li {
+  width: 4.5em;
+}
+
+/* line 104, ../scss/style.scss */
+.large-swatch {
+  width: 100%;
+  height: 4.5em;
+  margin-bottom: 0.2em;
+  display: block;
+  border-radius: 100px;
+}
+
+/* line 112, ../scss/style.scss */
+.label {
+  font-size: 0.75em;
+  line-height: 1;
+  text-transform: uppercase;
+  background: white;
+  color: black;
+}
+
+/* line 121, ../scss/style.scss */
+.blue {
+  background: #2051d2;
+}
+
+/* line 124, ../scss/style.scss */
+.yellow {
+  background: #ffc40d;
+}
+
+/* line 127, ../scss/style.scss */
+.green {
+  background: #a3d824;
+}
+
+/* line 130, ../scss/style.scss */
+.red {
+  background: #9d261d;
+}
+
+/* line 133, ../scss/style.scss */
+.orange {
+  background: #f89406;
+}
+
+/* line 136, ../scss/style.scss */
+.pink {
+  background: #c3325f;
+}
+
+/* line 139, ../scss/style.scss */
+.purple {
+  background: #504c83;
+}
+
+/* line 142, ../scss/style.scss */
+.gray {
+  background: #696969;
+}
+
+/* line 145, ../scss/style.scss */
+.black {
+  background: #111111;
+}
+
+/* line 151, ../scss/style.scss */
+.economy {
+  background: #9933cc;
+}
+
+/* line 154, ../scss/style.scss */
+.energy {
+  background: #81dd00;
+}
+
+/* line 157, ../scss/style.scss */
+.entertainment {
+  background: #e0119d;
+}
+
+/* line 160, ../scss/style.scss */
+.finance {
+  background: #ff6d22;
+}
+
+/* line 163, ../scss/style.scss */
+.government {
+  background: #0018ab;
+}
+
+/* line 166, ../scss/style.scss */
+.healthcare {
+  background: #00b9e4;
+}
+
+/* line 169, ../scss/style.scss */
+.law {
+  background: #ea2839;
+}
+
+/* line 172, ../scss/style.scss */
+.technology {
+  background: #fedf00;
+}
+
+/* line 199, ../scss/style.scss */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 100%;
+  color: #222222;
+  line-height: 1.75em;
+}
+
+/* line 206, ../scss/style.scss */
+a {
+  color: #4283de;
+  text-decoration: none;
+}
+/* line 209, ../scss/style.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 218, ../scss/style.scss */
+.top-bar {
+  min-height: 3em;
+  height: auto;
+  background: #fff;
+  border-bottom: 1px dotted #ccc;
+}
+
+/* line 225, ../scss/style.scss */
+.top-bar-section li a:not(.button) {
+  background: white;
+  padding: 7px 15px;
+  font-family: "Proxima Nova Soft W03 Reg";
+  font-size: 14px;
+  color: #111;
+}
+/* line 232, ../scss/style.scss */
+.top-bar-section li a:not(.button):hover {
+  background: #efefef;
+}
+
+/* line 239, ../scss/style.scss */
+.top-bar-section ul li a {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  background: transparent;
+}
+/* line 244, ../scss/style.scss */
+.top-bar-section ul li a:hover {
+  text-decoration: none;
+}
+
+/* line 252, ../scss/style.scss */
+.logo {
+  padding: 10px 10px;
+  max-width: 75%;
+}
+
+/* line 259, ../scss/style.scss */
+h1 {
+  font-family: "Proxima Nova Soft W03 Reg";
+  font-size: 2.53333em;
+  line-height: 1.25em;
+}
+/* line 263, ../scss/style.scss */
+h1.page-title {
+  font-family: "Proxima N W15 Light";
+  font-size: 2em;
+  font-weight: normal;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  color: #333;
+  border-bottom: 2px solid #111;
+}
+
+/* line 274, ../scss/style.scss */
+.back-to-top {
+  font-size: 0.5em;
+  display: inline-block;
+  margin-left: 1em;
+}
+
+/* line 280, ../scss/style.scss */
+h2 {
+  font-family: "Proxima Nova Soft W03 Reg";
+  font-size: 130%;
+}
+
+/* line 286, ../scss/style.scss */
+h3 {
+  font-family: "Proxima Nova Soft W03 Reg";
+}
+/* line 288, ../scss/style.scss */
+h3.element-title {
+  font-family: "Proxima Nova Soft W03 Reg";
+  font-size: 2em;
+  letter-spacing: -1px;
+}
+
+/* line 295, ../scss/style.scss */
+h4 {
+  font-family: "Proxima Nova Soft W03 Reg";
+}
+
+/* line 299, ../scss/style.scss */
+h5 {
+  font-family: "Proxima Nova Soft W03 Reg";
+}
+
+/* line 306, ../scss/style.scss */
+ul.disc,
+ol {
+  margin-left: 1em;
+}
+
+/* line 311, ../scss/style.scss */
+.icons-wrapper li {
+  display: inline-block;
+  list-style: none;
+  font-size: 18px;
+  padding: 0 5px;
+  color: black;
+}
+/* line 317, ../scss/style.scss */
+.icons-wrapper li:hover {
+  color: white;
+  background: black;
+}
+
+/* line 324, ../scss/style.scss */
+footer {
+  border-top: 1px dashed black;
+  background-color: white;
+  color: black;
+  padding: 15px 30px;
+  margin-top: 20px;
+}
+/* line 331, ../scss/style.scss */
+footer li {
+  display: block;
+  float: left;
+  list-style: none outside none;
+  margin: 0 3px 7px;
+  padding: 0;
+}
+/* line 337, ../scss/style.scss */
+footer li a {
+  border-left: 1px solid #acadae;
+  padding: 0 5px;
+}
+/* line 340, ../scss/style.scss */
+footer li a.first {
+  border-left: none;
+}
+
+/*Create extend for all buttons*/
+/* line 350, ../scss/style.scss */
+.btn, button {
+  background-color: #4c4c4c;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF4C4C4C', endColorstr='#FF131313');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4c4c4c), color-stop(12%, #595959), color-stop(25%, #666666), color-stop(39%, #474747), color-stop(50%, #2c2c2c), color-stop(51%, #000000), color-stop(60%, #111111), color-stop(76%, #2b2b2b), color-stop(91%, #1c1c1c), color-stop(100%, #131313));
+  background-image: -webkit-linear-gradient(top, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+  background-image: -moz-linear-gradient(top, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+  background-image: -o-linear-gradient(top, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+  background-image: linear-gradient(top, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+  border: 1px solid #000;
+  border-color: #000 !important;
+  font-family: "Proxima Nova Soft W03 Reg";
+}
+
+/* line 361, ../scss/style.scss */
+button:hover {
+  background: #111;
+}
+
+/* line 366, ../scss/style.scss */
+.cancel {
+  background-color: #bbbbbb;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bbbbbb), color-stop(5%, #adadad), color-stop(9%, #a2a2a2), color-stop(14%, #9b9b9b), color-stop(55%, #757575), color-stop(73%, #606060), color-stop(77%, #5d5d5d), color-stop(82%, #565656), color-stop(86%, #5c5c5c), color-stop(91%, #6a6a6a), color-stop(95%, #818181), color-stop(100%, #929292));
+  background-image: -webkit-linear-gradient(top, #bbbbbb 0%, #adadad 5%, #a2a2a2 9%, #9b9b9b 14%, #757575 55%, #606060 73%, #5d5d5d 77%, #565656 82%, #5c5c5c 86%, #6a6a6a 91%, #818181 95%, #929292 100%);
+  background-image: -moz-linear-gradient(top, #bbbbbb 0%, #adadad 5%, #a2a2a2 9%, #9b9b9b 14%, #757575 55%, #606060 73%, #5d5d5d 77%, #565656 82%, #5c5c5c 86%, #6a6a6a 91%, #818181 95%, #929292 100%);
+  background-image: -o-linear-gradient(top, #bbbbbb 0%, #adadad 5%, #a2a2a2 9%, #9b9b9b 14%, #757575 55%, #606060 73%, #5d5d5d 77%, #565656 82%, #5c5c5c 86%, #6a6a6a 91%, #818181 95%, #929292 100%);
+  background-image: linear-gradient(top, #bbbbbb 0%, #adadad 5%, #a2a2a2 9%, #9b9b9b 14%, #757575 55%, #606060 73%, #5d5d5d 77%, #565656 82%, #5c5c5c 86%, #6a6a6a 91%, #818181 95%, #929292 100%);
+  border: 1px solid #919191;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Proxima Nova Soft W03 Reg";
+  font-weight: normal;
+  font-size: 0.955em;
+  cursor: pointer !important;
+  line-height: 2em;
+}
+
+/* line 381, ../scss/style.scss */
+.full {
+  width: 100%;
+}
+
+/*
+.form-item,
+.form-actions {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.form-type-radios label,
+.form-type-checkboxes label {
+    margin-left: 0.25em;
+}
+*/
+/* line 403, ../scss/style.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  vertical-align: middle;
+}
+
+/* line 407, ../scss/style.scss */
+.form-item label {
+  display: inline;
+}
+
+/* line 415, ../scss/style.scss */
+.alert-box {
+  background: #333;
+  border: 1px solid #000;
+}

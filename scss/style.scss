@@ -1,0 +1,423 @@
+@import "compass/css3";
+@import "social_foundicons";
+
+/*
+_____,-----------------------,_____
+ \    |   DESIGN IN BROWSER   |    /
+ /____|-----------------------|____\
+                                       */
+
+// Variables
+// -------------------------
+
+// Baseline grid
+$baseFontSize: 100%;
+
+/* 14px */
+$baseLineHeight: 1.2857em;
+
+// Fonts
+// -------------------------
+$baseFont: "Helvetica Neue", Arial, sans-serif;
+$secondaryFont: Georgia, serif;
+$baseFontColor: #222222;
+$secondaryFontColor: #555555;
+
+$headingFont: 'Proxima Nova Soft W03 Reg';
+$headingFontLight: 'Proxima N W15 Light';
+$headingFontSoft: 'Proxima Nova Soft W03 Reg';
+
+
+// Links
+// -------------------------
+$linkColor: #4283de;
+$linkHover: darken($linkColor, 15);
+$inkActiveColor: black;
+
+
+// Header
+// -------------------------
+$headerBg: #333;
+$headerColor: white;
+
+// Footer
+// -------------------------
+$footerBg: black;
+$footerColor: white;
+
+$brandPrimary: white;
+$brandSecondary: #dddddd;
+$primaryColor: #2ba6cb;
+$secondaryColor: #e9e9e9;
+$alertColor: #c60f13;
+$successColor: #5da423;
+
+// Categories
+// -------------------------
+$economyColor:                  #9933cc;
+$energyColor:                   #81dd00;
+$entertainmentColor:            #e0119d;
+$financeColor:                  #ff6d22;
+$governmentColor:               #0018ab;
+$healthcareColor:               #00b9e4;
+$lawColor:                      #ea2839;
+$technologyColor:               #fedf00;
+
+// Basic colors
+// -------------------------
+$blue: #2051d2 !default;
+$green: #a3d824 !default;
+$red: #9d261d !default;
+$yellow: #ffc40d !default;
+$orange: #f89406 !default;
+$pink: #c3325f !default;
+$purple: #504c83 !default;
+$white: #fff !default;
+$black: #000000 !default;
+
+
+// Brand colors
+// -------------------------
+.colors {
+    overflow: hidden;
+    li {
+        float: left;
+        width:3.5em;
+        margin: 0 .5em;
+        list-style: none;
+        text-align: center;
+    }
+}
+
+.swatch {
+    width: 100%;
+    height: 3.5em;
+    margin-bottom: 0.2em;
+    display: block;
+    border-radius: 100px;
+}
+
+.colors.large li {
+    width: 4.5em;
+}
+
+.large-swatch {
+    width: 100%;
+    height: 4.5em;
+    margin-bottom: 0.2em;
+    display: block;
+    border-radius: 100px;
+}
+
+.label {
+    font-size: 0.75em;    
+    line-height: 1;
+    text-transform: uppercase;
+    background: $white;
+    color: $black;
+  
+}
+
+.blue {
+    background: #2051d2;
+}
+.yellow {
+    background: $yellow;
+}
+.green {
+    background: $green;
+}
+.red {
+    background: $red;
+}
+.orange {
+    background: $orange;
+}
+.pink {
+    background: $pink;
+}
+.purple {
+    background: $purple;
+}
+.gray {
+    background: #696969;
+}
+.black {
+    background: #111111;
+}
+
+// Categories
+// -------------------------
+.economy { 
+    background: $economyColor;
+}
+.energy { 
+    background: $energyColor;
+}
+.entertainment { 
+    background: $entertainmentColor;
+}
+.finance {
+    background: $financeColor;
+}
+.government {
+    background: $governmentColor;
+}
+.healthcare {
+    background: $healthcareColor;
+}
+.law {
+    background: $lawColor;
+}
+.technology {
+    background: $technologyColor;
+}
+
+
+// Forms
+// -------------------------
+$inputBackground: $white !default;
+$inputBorder: #cccccc !default;
+
+// Tables
+// -------------------------
+$tableBackground: transparent !default;
+
+// overall background-color
+$tableBackgroundAccent: #f9f9f9 !default;
+
+// for striping
+$tableBackgroundHover: whitesmoke !default;
+
+// for hover
+$tableBorder: #dddddd !default;
+
+// table and cell border
+
+// Global styles
+// -------------------------
+body {
+    font-family: $baseFont;
+    font-size: $baseFontSize;
+    color: $baseFontColor;
+    line-height: 1.75em;
+}
+
+a {
+    color: $linkColor;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+
+// Top Bar
+// -------------------------
+
+.top-bar {
+    min-height: 3em;
+    height: auto;
+    background: #fff;
+    border-bottom: 1px dotted #ccc;
+}
+
+.top-bar-section li a:not(.button) {
+    background: $white; 
+    padding: 7px 15px;
+    font-family: $headingFontSoft;
+    font-size: 14px;
+    color: #111;
+
+        &:hover {
+            background: #efefef;
+        }
+}
+
+.top-bar-section {
+        ul li {
+               a {
+                    font-family: Arial, sans-serif;
+                    font-size: 14px;
+                    font-weight: normal;
+                    background: transparent;
+                        &:hover {
+                            text-decoration: none;
+                        }
+                }
+        }
+
+}
+
+.logo {
+    padding: 10px 10px;
+    max-width: 75%;
+}
+
+// Headline Styles
+// -------------------------
+h1 {
+    font-family: $headingFont;
+    font-size: 2.53333em;
+    line-height: 1.25em;
+      &.page-title {
+        font-family: $headingFontLight;
+        font-size: 2em;  
+        font-weight: normal;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+        color: #333;
+        border-bottom: 2px solid #111;
+    }
+}
+
+  .back-to-top {
+        font-size: 0.5em;
+        display: inline-block;
+        margin-left: 1em;
+    }
+
+h2 { 
+    font-family: $headingFont;
+    font-size: 130%;
+
+}
+
+h3 {
+    font-family: $headingFont;
+        &.element-title {
+            font-family: $headingFontSoft;
+            font-size: 2em;
+            letter-spacing: -1px;
+     }
+}
+
+h4 {
+    font-family: $headingFont;
+}
+
+h5 {
+    font-family: $headingFont;
+}
+
+// Layout Styles
+// -------------------------
+ul.disc,
+ol {
+    margin-left: 1em;
+}
+
+.icons-wrapper {
+    li {
+        display: inline-block;
+        list-style: none;
+        font-size: 18px;
+        padding: 0 5px;
+        color: $black;
+            &:hover {
+                color: $white;
+                background :$black;
+            }
+    }
+}
+
+footer {
+    border-top: 1px dashed black;
+    background-color: $white;
+    color: $black;
+    padding: 15px 30px;
+    margin-top: 20px;
+
+    li {
+        display: block;
+        float: left;
+        list-style: none outside none;
+        margin: 0 3px 7px;
+        padding: 0;
+            a {
+                border-left: 1px solid #acadae;
+                padding: 0 5px;
+                    &.first {
+                        border-left: none;
+                    }
+            }
+    }
+}
+
+// Buttons
+// -------------------------
+    /*Create extend for all buttons*/
+    .btn {
+        background-color: #4c4c4c;
+        @include filter-gradient(#4c4c4c, #131313, vertical);
+        @include background-image(linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%));
+        border: 1px solid #000;
+        border-color: #000 !important;
+        font-family: $headingFontSoft;
+    }
+
+    button {
+       @extend .btn; 
+        &:hover {
+            background: #111;
+        }      
+    }
+
+    .cancel {
+        background-color: #bbbbbb;
+        @include background-image(linear-gradient(top, #bbbbbb 0%,#adadad 5%,#a2a2a2 9%,#9b9b9b 14%,#757575 55%,#606060 73%,#5d5d5d 77%,#565656 82%,#5c5c5c 86%,#6a6a6a 91%,#818181 95%,#929292 100%));
+        border: 1px solid #919191;
+        @include border-radius(5px);
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: $headingFontSoft;
+        font-weight: normal;
+        font-size: 0.955em;
+        cursor: pointer !important;
+        line-height: 2em;
+    }
+
+    .full {
+        width: 100%;
+    }  
+
+
+// Forms
+// -------------------------
+
+/*
+.form-item,
+.form-actions {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.form-type-radios label,
+.form-type-checkboxes label {
+    margin-left: 0.25em;
+}
+*/
+
+input[type="checkbox"],
+input[type="radio"] {
+    vertical-align: middle;
+}
+
+.form-item label {
+  display: inline;
+}
+
+
+// Alerts
+// -------------------------
+
+.alert-box {
+    background: #333;
+    border: 1px solid #000;
+}
+
+// Tabs
+// -------------------------
+
+
